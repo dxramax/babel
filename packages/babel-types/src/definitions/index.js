@@ -7,6 +7,7 @@ import "./jsx";
 import "./misc";
 import "./experimental";
 import "./typescript";
+import "./jsNext";
 import {
   VISITOR_KEYS,
   ALIAS_KEYS,

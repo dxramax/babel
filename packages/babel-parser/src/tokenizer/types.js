@@ -148,7 +148,7 @@ export const types: { [name: string]: TokenType } = {
   bitwiseOR: createBinop("|", 3),
   bitwiseXOR: createBinop("^", 4),
   bitwiseAND: createBinop("&", 5),
-  equality: createBinop("==/!=/===/!==", 6),
+  equality: createBinop("==/!=/===/!==/====/!===", 6),
   relational: createBinop("</>/<=/>=", 7),
   bitShift: createBinop("<</>>/>>>", 8),
   plusMin: new TokenType("+/-", { beforeExpr, binop: 9, prefix, startsExpr }),

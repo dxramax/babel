@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`jjjj should parse 1`] = `
+Node {
+  "comments": Array [],
+  "end": 16,
+  "errors": Array [],
+  "loc": SourceLocation {
+    "end": Position {
+      "column": 16,
+      "line": 1,
+    },
+    "start": Position {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "program": Node {
+    "body": Array [
+      Node {
+        "declarations": Array [
+          Node {
+            "end": 15,
+            "id": Node {
+              "end": 7,
+              "left": Node {
+                "end": 5,
+                "loc": SourceLocation {
+                  "end": Position {
+                    "column": 5,
+                    "line": 1,
+                  },
+                  "identifierName": "a",
+                  "start": Position {
+                    "column": 4,
+                    "line": 1,
+                  },
+                },
+                "name": "a",
+                "start": 4,
+                "type": "Identifier",
+              },
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 7,
+                  "line": 1,
+                },
+                "start": Position {
+                  "column": 4,
+                  "line": 1,
+                },
+              },
+              "right": Node {
+                "end": 7,
+                "loc": SourceLocation {
+                  "end": Position {
+                    "column": 7,
+                    "line": 1,
+                  },
+                  "identifierName": "b",
+                  "start": Position {
+                    "column": 6,
+                    "line": 1,
+                  },
+                },
+                "name": "b",
+                "start": 6,
+                "type": "Identifier",
+              },
+              "start": 4,
+              "type": "DestructureNumberPattern",
+            },
+            "init": Node {
+              "end": 15,
+              "extra": Object {
+                "raw": "3.142",
+                "rawValue": 3.142,
+              },
+              "loc": SourceLocation {
+                "end": Position {
+                  "column": 15,
+                  "line": 1,
+                },
+                "start": Position {
+                  "column": 10,
+                  "line": 1,
+                },
+              },
+              "start": 10,
+              "type": "NumericLiteral",
+              "value": 3.142,
+            },
+            "loc": SourceLocation {
+              "end": Position {
+                "column": 15,
+                "line": 1,
+              },
+              "start": Position {
+                "column": 4,
+                "line": 1,
+              },
+            },
+            "start": 4,
+            "type": "VariableDeclarator",
+          },
+        ],
+        "end": 16,
+        "kind": "let",
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 16,
+            "line": 1,
+          },
+          "start": Position {
+            "column": 0,
+            "line": 1,
+          },
+        },
+        "start": 0,
+        "type": "VariableDeclaration",
+      },
+    ],
+    "directives": Array [],
+    "end": 16,
+    "interpreter": null,
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 16,
+        "line": 1,
+      },
+      "start": Position {
+        "column": 0,
+        "line": 1,
+      },
+    },
+    "sourceType": "module",
+    "start": 0,
+    "type": "Program",
+  },
+  "start": 0,
+  "type": "File",
+}
+`;

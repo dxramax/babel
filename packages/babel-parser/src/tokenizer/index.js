@@ -673,7 +673,9 @@ export default class Tokenizer extends ParserErrors {
       this.finishOp(
         tt.equality,
         this.input.charCodeAt(this.state.pos + 2) === charCodes.equalsTo
-          ? 3
+          ? this.input.charCodeAt(this.state.pos + 3) === charCodes.equalsTo
+            ? 4
+            : 3
           : 2,
       );
       return;
